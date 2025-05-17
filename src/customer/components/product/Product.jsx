@@ -12,7 +12,7 @@ import ProductCard from './ProductCard';
 import test from '../../../Data/test.js';
 import filterData from '../product/FilterData.js';
 import FilterListIcon from '@mui/icons-material/FilterList';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 const { filters } = filterData;
@@ -284,7 +284,7 @@ export default function Product() {
         </Dialog>
 
 
-        <main className="mx-auto px-4 sm:px-6 lg:px-20 "  style={{ paddingTop: '24px' }}>
+        <main className="mx-auto px-4 sm:px-6 lg:px-20 " style={{ paddingTop: '24px' }}>
           <div className="flex items-baseline justify-between border-b border-gray-200 pt-24 pb-6">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900">Coffee </h1>
 

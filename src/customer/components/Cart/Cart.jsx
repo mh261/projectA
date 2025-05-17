@@ -6,7 +6,7 @@ const Cart = () => {
   return (
     <div>
       {/* danh sách sản phẩm */}
-      <div className='lg:grid grid-cols-3 lg:px-16 relative pt-28'>
+      <div className='lg:grid grid-cols-3 relative pt-28'>
         <div className='col-span-2'>
           {[1, 1, 1, 1].map((item) => <CartItem />)}
         </div>
@@ -15,7 +15,7 @@ const Cart = () => {
             {/* bảng tiền  */}
             <p className='uppercase font-bold  opacity-60 pb-4 '> GIÁ TIỀN CHI TIẾT</p>
             <hr />
-            <div clasName="space-y-3 font-semibold mb-10 ">
+            <div className="space-y-3 font-semibold mb-10 ">
               <div className='flex justify-between pt-3 text-black '>
                 <span>GIÁ</span>
                 <span>293</span>

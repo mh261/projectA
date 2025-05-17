@@ -43,4 +43,4 @@ const navigation = {
   ],
 };
 
-export { navigation };
+export default navigation;

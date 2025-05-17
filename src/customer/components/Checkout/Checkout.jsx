@@ -67,7 +67,7 @@ export default function Checkout() {
                             </Typography>
                         ) : (
                             <>
-                                <div className="my-6">
+                                <div className="mt-10">
                                     {activeStep === 2 ? <Delivery /> : <OrderSummary />}
                                 </div>
 

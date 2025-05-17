@@ -25,7 +25,6 @@ const Delivery = () => {
                     <Box
                         className="shadow-md border rounded-md h-full flex flex-col justify-between p-3"
                     >
-                        <Typography variant="caption" color="text.secondary" sx={{ mb: 1 }}>BACK</Typography>
                         <AddressCard />
                         <Button
                             sx={{
