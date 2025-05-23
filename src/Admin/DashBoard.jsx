@@ -15,7 +15,7 @@ import { test as productData } from '../Data/test.js';
 
 const DashBoard = () => {
     const handleEdit = (id) => {
-        console.log('Edit sản phẩm ID:', id);
+        window.location.href = `/update-product/${id}`;
     };
 
     const handleDelete = (id) => {

@@ -14,6 +14,7 @@ import AddProduct from '../Admin/AddProduct'
 import Order from '../customer/components/Order/Order'
 import OrderDetails from '../customer/components/Order/OrderDetails'
 import Navigation from '../customer/components/Navigation/Navigation.jsx'
+import UpdateProduct from '../Admin/UpdateProduct.jsx'
 import Footer from '../customer/components/footer/footer.jsx'
 
 const CustomerRouters = () => (
@@ -33,9 +34,11 @@ const CustomerRouters = () => (
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/admin" element={<DashBoard />} />
-            <Route path="/add-product" element={<AddProduct />} />
+            
             <Route path="/order" element={<Order />} />
             <Route path="/orderD" element={<OrderDetails />} /> */}
+            <Route path="/add-product" element={<AddProduct />} />
+            <Route path="/update-product/:id" element={<UpdateProduct />} />
         </Routes>
         <div>
             <Footer />
